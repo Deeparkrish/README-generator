@@ -5,7 +5,7 @@ const inquirer = require("inquirer");
 const { resolve } = require("path");
 
 const generateReadMe = require("./utils/generateMarkdown")
- const readMeFile ="./dis/index.html";
+ const readMeFile ="./dis/README.md";
 // TODO: Create an array of questions for user input
 const answers = [];
 const promptUser = () => {
@@ -38,7 +38,6 @@ const promptUser = () => {
         },
         message: 'Enter a brief description of the project'
       },
-      
       {
         type: 'input',
         name: 'projectUsage',
@@ -52,9 +51,23 @@ const promptUser = () => {
         },
         message: 'Please provide instructions and examples for use.'
       },
+      
+      {
+        type: 'input',
+        name: 'projectInstallation',
+        validate: installInput => {
+          if (installInput) {
+            return true;
+          } else {
+            console.log('What are the steps required to install your project?');
+            return false;
+          }
+        },
+        message: 'What are the steps required to install your project?'
+      },
       {
         type: "list",
-        name: "projectlicense",
+        name: "projectLicense",
         message: "Chose the appropriate license for this project: ",
         choices: [
             "Apache",
