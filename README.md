@@ -40,6 +40,11 @@ The following steps have been incoroporated in this app :
 * This content is written into a README file in "dis" folder, using the fs.writeFile function. 
 * A high-quality, professional README.md is generated with the title of my project with sections included, is created.
 ## Installation 
+
+The following are needed to reun this application :
+* npm i inquirer - Install a collection of common interactive command line user interfaces.
+* npm install -Install the dependencies in the local node_modules folder.
+
 The application will be invoked by using the following command:
 node index.js
 
