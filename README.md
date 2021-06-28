@@ -31,16 +31,18 @@ The following steps have been incoroporated in this app :
 * This  data is added to the section of the README entitled Questions, with a link to the user's GitHub profile.
 * Based on these data , a Table of Contents is created that lists all section. 
 * When the user click on the links in the Table of Contents, it navgates the user to the corresponding section of the README.
+* This README also incorporates the badges about the current project with  the languages used, open issues, size of the repo and last-commit information
 
 ## Implementation
 * Inquirier.js is user as the command line interface for Node.js  It provides the user interface and the inquiry session flow.
 * Once the user input is successfully stored in an Object array , then a generatemarkdwon function is called that returns the generated markdown content. 
+* The project license is carefully examined and appropriate Badges  are created.
 * This content is written into a README file in "dis" folder, using the fs.writeFile function. 
 * A high-quality, professional README.md is generated with the title of my project with sections included, is created.
 ## Installation 
 The application will be invoked by using the following command:
-
 node index.js
+
 
 
 
