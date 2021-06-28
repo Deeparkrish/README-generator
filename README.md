@@ -1,5 +1,7 @@
+
 <h1 align="center">README.md Generator Using Node.js</h1>
-   
+
+Generating a Readme file for a project    
   
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/deeparkrish/README-generator" />
@@ -17,5 +19,5 @@
     <img src="https://img.shields.io/badge/-screencastify-lightgrey" />
     <img src="https://img.shields.io/badge/-json-orange" />
 </p>
-# README-generator
-Generating a Readme file for a project 
+
+
