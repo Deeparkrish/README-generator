@@ -1,7 +1,7 @@
-# Run buddy 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br />
+# taskinator 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
   ## Description
-  personal trainer webpage 
+  The project helps us to manange tasks 
 
   ## Table of Contents 
   * [Description](#description)
@@ -14,23 +14,23 @@
   
   
   ##  Installation
-  click on the app 
+  visit the github page and click on the app link
 
   ##  Usage
-  none
+  You can use it  to manage your to-do lists 
 
   ## License 
-  ![badge](https://img.shields.io/badge/license-Apache-brightgreen)
-  # This app is covered under Apache license.
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
+  This app is covered under MIT license.
 
   ## Contributing
-  undefined
+  PLease follow standard ECMA guidelines 
 
   ## Testing 
-  click on the app
+  you can test this by adding tasks editing and deleting tasks
 
   ## Questions 
-  # Git hub : [deeparkrish](https://github.com/deeparkrish)
-  # Email :kosalai17@gmail.com
+  Git hub link: [Deeparkrish](https://github.com/Deeparkrish)
+  Email :kosalai17@gmail.com
 
   Created with ❤️ by [Deepa Krishnan](https://github.com/DeeparKrish/README-generator)
