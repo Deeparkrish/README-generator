@@ -1,7 +1,13 @@
 # README-generator
-  ![License](https://img.shields.io/badge/license-Other-lightgrey)<br />
+  <p align="left">
+    <img src="https://img.shields.io/github/repo-size/Deeparkrish/README-generator" />
+    <img src="https://img.shields.io/github/languages/top/Deeparkrish/README-generator"  />
+    <img src="https://img.shields.io/github/issues/Deeparkrish/README-generator" />
+    <img src="https://img.shields.io/github/last-commit/Deeparkrish/README-generator" >
+</p>
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
   ## Description
-  This app generates a README file for any project 
+  The app generates a README file for any project 
 
   ## Table of Contents 
   * [Description](#description)
@@ -14,23 +20,23 @@
   
   
   ##  Installation
-  Install : node , npm installer , inquirier
+  Install : node, inquirier 
 
   ##  Usage
-  type node <filename> and answer questions , README.md will be crested in "dis" folder
+  node <filename> and answer the questions 
 
   ## License 
-  ![License](https://img.shields.io/badge/license-Other-lightgrey)<br />
-  This app is covered under Other license.
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
+  This app is covered under MIT license.
 
   ## Contributing
-  please make sure you have node modules, package.json file
+  make sure you hve npm installer 
 
   ## Testing 
-  Answer the questions and try entering baln for respponse and check out on README.md
+  Try to skip  answering questions 
 
   ## Questions 
   Git hub link: [Deeparkrish](https://github.com/Deeparkrish) <br/>
-  Email :deepa@123.com
+  Email :deepa@abc.org
 
   Created with ❤️ by [Deepa Krishnan](https://github.com/DeeparKrish/README-generator)

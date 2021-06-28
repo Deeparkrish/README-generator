@@ -70,6 +70,12 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   renderLicenseSection(data.projectLicense);
   return `# ${data.projectTitle}
+  <p align="left">
+    <img src="https://img.shields.io/github/repo-size/${data.github}/README-generator" />
+    <img src="https://img.shields.io/github/languages/top/${data.github}/README-generator"  />
+    <img src="https://img.shields.io/github/issues/${data.github}/README-generator" />
+    <img src="https://img.shields.io/github/last-commit/${data.github}/README-generator" >
+</p>
   ${licenseBadgeLink}<br />
   ## Description
   ${data.projectDescription}
