@@ -5,7 +5,9 @@
     <img src="https://img.shields.io/github/issues/Deeparkrish/README-generator" />
     <img src="https://img.shields.io/github/last-commit/Deeparkrish/README-generator" >
 </p>
+
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
+  
   ## Description
   The app generates a README file for any project 
 
