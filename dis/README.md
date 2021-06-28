@@ -1,7 +1,7 @@
-# taskinator 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
+# README-generator
+  ![License](https://img.shields.io/badge/license-Other-lightgrey)<br />
   ## Description
-  The project helps us to manange tasks 
+  This app generates a README file for any project 
 
   ## Table of Contents 
   * [Description](#description)
@@ -14,23 +14,23 @@
   
   
   ##  Installation
-  visit the github page and click on the app link
+  Install : node , npm installer , inquirier
 
   ##  Usage
-  You can use it  to manage your to-do lists 
+  type node <filename> and answer questions , README.md will be crested in "dis" folder
 
   ## License 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
-  This app is covered under MIT license.
+  ![License](https://img.shields.io/badge/license-Other-lightgrey)<br />
+  This app is covered under Other license.
 
   ## Contributing
-  PLease follow standard ECMA guidelines 
+  please make sure you have node modules, package.json file
 
   ## Testing 
-  you can test this by adding tasks editing and deleting tasks
+  Answer the questions and try entering baln for respponse and check out on README.md
 
   ## Questions 
-  Git hub link: [Deeparkrish](https://github.com/Deeparkrish)
-  Email :kosalai17@gmail.com
+  Git hub link: [Deeparkrish](https://github.com/Deeparkrish) <br/>
+  Email :deepa@123.com
 
   Created with ❤️ by [Deepa Krishnan](https://github.com/DeeparKrish/README-generator)

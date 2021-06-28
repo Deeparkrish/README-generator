@@ -49,7 +49,7 @@ function renderLicenseBadgeandLink(license) {
                               break;
     case "Eclipse":   licenseBadgeLink="[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)"
                       break; 
-    case "Other":     licenseBadgeLink=""
+    case "Other":     licenseBadgeLink="![License](https://img.shields.io/badge/license-Other-lightgrey)"
                       break;  
   }
 }
@@ -101,7 +101,7 @@ function generateMarkdown(data) {
   ${data.projectTesting}
 
   ## Questions 
-  Git hub link: [${data.github}](https://github.com/${data.github})
+  Git hub link: [${data.github}](https://github.com/${data.github}) <br/>
   Email :${data.email}
 
   Created with ❤️ by [Deepa Krishnan](https://github.com/DeeparKrish/README-generator)
