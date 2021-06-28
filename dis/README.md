@@ -31,7 +31,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
   This app is covered under MIT license.
 
-  ## Contributing
+  ## Contribution
   make sure you hve npm installer 
 
   ## Testing 
