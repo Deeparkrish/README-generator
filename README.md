@@ -18,7 +18,7 @@ Create a command-line application that dynamically generates a professional READ
 </p>
 
 ## Interface 
-The following steps have been incoroporated in this app :
+The following steps have been incorporated in this app :
 * A command-line application that accepts user input.
 * The user is prompted to enter the project title
 * Then he is continuouly prompted to enter a  proejct description, installation instructions, usage information, contribution guidelines, and test instructions
