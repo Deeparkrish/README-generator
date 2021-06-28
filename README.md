@@ -48,8 +48,12 @@ The following are needed to reun this application :
 The application will be invoked by using the following command:
 node index.js
 
-## Webpage
+## Generated README 
+https://github.com/Deeparkrish/README-generator/tree/main/dis
+
+## Project Repository
 https://deeparkrish.github.io/README-generator/
+
 
 ## Contribution
 Created with ❤️ by [Deepa Krishnan](https://github.com/DeeparKrish/README-generator)
