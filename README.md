@@ -1,6 +1,6 @@
 ##  README-Generator 
-
 Generating a Readme file for a project    
+
   
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/deeparkrish/README-generator" />
@@ -9,8 +9,9 @@ Generating a Readme file for a project
     <img src="https://img.shields.io/github/last-commit/deeparkrish/README-generator" >
    
 </p>
-  
-<p align="center">
+
+
+<p align="center"> 
     <img src="https://img.shields.io/badge/Javascript-yellow" />
     <img src="https://img.shields.io/badge/jQuery-blue"  />
     <img src="https://img.shields.io/badge/-node.js-green" />
