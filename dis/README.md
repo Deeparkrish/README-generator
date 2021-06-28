@@ -1,7 +1,7 @@
-# g
-  ![badge](https://img.shields.io/badge/license-Apache-brightgreen)<br />
+# run buddy 
+  ![badge](https://img.shields.io/badge/license-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)-badgeColor)<br />
   ## Description
-  g
+  trainer project 
 
   ## Table of Contents 
   * [Description](#description)
@@ -10,26 +10,27 @@
   * [License](#license)
   * [Contribution](#contribution)
   * [Testing](#testing)
-  * [Questions](#github)
+  * [Questions](#questions)
   
   
   ##  Installation
-  g
+  none
 
   ##  Usage
-  g
+  open in browser
 
   ## License 
   ![badge](https://img.shields.io/badge/license-Apache-brightgreen)
+  # This app is covered under Apache license.
 
   ## Contributing
   undefined
 
   ## Testing 
-  g
+  check the documentaiton
 
-  ##Questions 
-  # Git hub : [g](https://github.com/g)
-  # Email :g
+  ## Questions 
+  # Git hub : [deeparkrish](https://github.com/deeparkrish)
+  # Email :kosalai17@gmail.com
 
   Created with ❤️ by [Deepa Krishnan](https://github.com/DeeparKrish/README-generator)

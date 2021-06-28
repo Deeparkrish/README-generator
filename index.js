@@ -71,13 +71,20 @@ const promptUser = () => {
         message: "Chose the appropriate license for this project: ",
         choices: [
             "Apache",
-            "Academic",
+            "BSD",
             "GNU",
             "ISC",
             "MIT",
             "Mozilla",
-            "Open",
-            "Boost"
+            "Perl",
+            "Boost",
+            "Artistic",
+            "SIL",
+            "ODC",
+            "IBM",
+            "Creative Commons",
+            "Eclipse",
+            "Other"
         ]
       },
       {
