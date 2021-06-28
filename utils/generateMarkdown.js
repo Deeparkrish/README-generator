@@ -1,18 +1,17 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// // TODO: Create a function that returns a license badge based on which license is passed in
+// // If there is no license, return an empty string
+// function renderLicenseBadge(license) {
+//   if (!license)
+//   return '';
+// }
+var licenseBadgeLink='';
+// TODO: Create a function that returns  a license badge based the license link on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  if (!license)
-  return '';
-}
-var licenseLink='';
-var badgeColor;
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
+function renderLicenseBadgeandLink(license) {
   switch (license){
-    case "Apache" :   licenseLink ="[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    case "Apache" :   licenseBadgeLink ="[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
                       break;
-    case "BSD"    :  licenseLink="https://opensource.org/licenses/BSD-3-Clause";
+    case "BSD"    :  licenseBadgeLink="https://opensource.org/licenses/BSD-3-Clause";
                      break;
     case "GNU"    :
                     break;
@@ -38,7 +37,7 @@ function renderLicenseSection(license) {
   return '';
   else 
   
-  return renderLicenseLink(license);
+  return renderLicenseBadgeandLink(license);
   
 
 }
@@ -47,7 +46,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   renderLicenseSection(data.projectLicense);
   return `# ${data.projectTitle}
-  ${licenseLink}<br />
+  ${licenseBadgeLink}<br />
   ## Description
   ${data.projectDescription}
 
@@ -68,8 +67,8 @@ function generateMarkdown(data) {
   ${data.projectUsage}
 
   ## License 
-  ![badge](https://img.shields.io/badge/license-${data.projectLicense}-brightgreen)
-  # This app is covered under ${data.projectLicense} license.
+  ${licenseBadgeLink}<br />
+  This app is covered under ${data.projectLicense} license.
 
   ## Contributing
   ${data.projectContribution}
@@ -78,8 +77,8 @@ function generateMarkdown(data) {
   ${data.projectTesting}
 
   ## Questions 
-  # Git hub : [${data.github}](https://github.com/${data.github})
-  # Email :${data.email}
+  Git hub link: [${data.github}](https://github.com/${data.github})
+  Email :${data.email}
 
   Created with ❤️ by [Deepa Krishnan](https://github.com/DeeparKrish/README-generator)
 `;

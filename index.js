@@ -38,19 +38,6 @@ const promptUser = () => {
         },
         message: 'Enter a brief description of the project'
       },
-      {
-        type: 'input',
-        name: 'projectUsage',
-        validate: usageInput => {
-          if (usageInput) {
-            return true;
-          } else {
-            console.log('Please provide instructions and examples for use.');
-            return false;
-          }
-        },
-        message: 'Please provide instructions and examples for use.'
-      },
       
       {
         type: 'input',
@@ -64,6 +51,19 @@ const promptUser = () => {
           }
         },
         message: 'What are the steps required to install your project?'
+      },
+      {
+        type: 'input',
+        name: 'projectUsage',
+        validate: usageInput => {
+          if (usageInput) {
+            return true;
+          } else {
+            console.log('Please provide  usage information and examples for use.');
+            return false;
+          }
+        },
+        message: 'Please provide information and examples for use.'
       },
       {
         type: "list",

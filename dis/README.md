@@ -1,7 +1,7 @@
-# run buddy 
-  ![badge](https://img.shields.io/badge/license-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)-badgeColor)<br />
+# Run buddy 
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br />
   ## Description
-  trainer project 
+  personal trainer webpage 
 
   ## Table of Contents 
   * [Description](#description)
@@ -14,10 +14,10 @@
   
   
   ##  Installation
-  none
+  click on the app 
 
   ##  Usage
-  open in browser
+  none
 
   ## License 
   ![badge](https://img.shields.io/badge/license-Apache-brightgreen)
@@ -27,7 +27,7 @@
   undefined
 
   ## Testing 
-  check the documentaiton
+  click on the app
 
   ## Questions 
   # Git hub : [deeparkrish](https://github.com/deeparkrish)
