@@ -1,15 +1,15 @@
-# README-generator
+# README generator
   <p align="left">
-    <img src="https://img.shields.io/github/repo-size/Deeparkrish/README-generator" />
-    <img src="https://img.shields.io/github/languages/top/Deeparkrish/README-generator"  />
-    <img src="https://img.shields.io/github/issues/Deeparkrish/README-generator" />
-    <img src="https://img.shields.io/github/last-commit/Deeparkrish/README-generator" >
-</p>
+    <img src="https://img.shields.io/github/repo-size/deeparkrish/README-generator" />
+    <img src="https://img.shields.io/github/languages/top/deeparkrish/README-generator"  />
+    <img src="https://img.shields.io/github/issues/deeparkrish/README-generator" />
+    <img src="https://img.shields.io/github/last-commit/deeparkrish/README-generator" >   
+  </p>
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT/?target=_blank)<br />
+
   ## Description
-  The app generates a README file for any project 
+  generates readme 
 
   ## Table of Contents 
   * [Description](#description)
@@ -22,23 +22,23 @@
   
   
   ##  Installation
-  Install : node, inquirier 
+  install node /inquirer
 
   ##  Usage
-  node <filename> and answer the questions 
+  get user input 
 
   ## License 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT/?target=_blank)<br />
   This app is covered under MIT license.
 
   ## Contribution
-  make sure you hve npm installer 
+  undefined
 
   ## Testing 
-  Try to skip  answering questions 
+  npm install 
 
   ## Questions 
-  Git hub link: [Deeparkrish](https://github.com/Deeparkrish) <br/>
-  Email :deepa@abc.org
+  Git hub link: [deeparkrish](https://github.com/deeparkrish) <br/>
+  Email :deepa@abc.com
 
   Created with ❤️ by [Deepa Krishnan](https://github.com/DeeparKrish/README-generator)
