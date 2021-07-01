@@ -1,15 +1,15 @@
-# run buddy 
+# README- generator
   <p align="left">
-    <img src="https://img.shields.io/github/repo-size/deeparkrish /README-generator" />
-    <img src="https://img.shields.io/github/languages/top/deeparkrish /README-generator"  />
-    <img src="https://img.shields.io/github/issues/deeparkrish /README-generator" />
-    <img src="https://img.shields.io/github/last-commit/deeparkrish /README-generator" >   
+    <img src="https://img.shields.io/github/repo-size/deeparkrish/README-generator" />
+    <img src="https://img.shields.io/github/languages/top/deeparkrish/README-generator"  />
+    <img src="https://img.shields.io/github/issues/deeparkrish/README-generator" />
+    <img src="https://img.shields.io/github/last-commit/deeparkrish/README-generator" >   
   </p>
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)<br />
 
   ## Description
-  trainer project 
+  generates a readme for a project
 
   ## Table of Contents 
   * [Description](#description)
@@ -22,23 +22,23 @@
   
   
   ##  Installation
-  click the link 
+  npm install 
 
   ##  Usage
-  used to track your fitness  and neroll in fitness program 
+  ask user questions
 
   ## License 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg/?target=_blank)](https://opensource.org/licenses/MIT)<br />
-  This app is covered under MIT license.
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)<br />
+  This app is covered under Mozilla license.
 
   ## Contribution
-  undefined
+  follow ECMA standard
 
   ## Testing 
-  Provide invalid user name 
+  try entering invalid emai ;
 
   ## Questions 
-  Git hub link: [deeparkrish ](https://github.com/deeparkrish ) <br/>
-  Email :deepa@abc.com
+  Git hub link: [deeparkrish](https://github.com/deeparkrish) <br/>
+  Email :adee@aadc.com
 
   Created with ❤️ by [Deepa Krishnan](https://github.com/DeeparKrish/README-generator)
