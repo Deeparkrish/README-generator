@@ -16,7 +16,7 @@ function renderLicenseBadgeandLink(license) {
     case "ISC"    :   licenseBadgeLink="[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
                       break;
 
-    case "MIT"    :   licenseBadgeLink="[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT/?target=_blank)"
+    case "MIT"    :   licenseBadgeLink="[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
                       break;
 
     case "Mozilla":   licenseBadgeLink="[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
@@ -64,6 +64,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   renderLicenseSection(data.projectLicense);
+  
   return `# ${data.projectTitle}
   <p align="left">
     <img src="https://img.shields.io/github/repo-size/${data.github}/README-generator" />

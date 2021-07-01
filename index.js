@@ -62,7 +62,7 @@ const promptUser = () => {
             return false;
           }
         },
-        message: 'Please provide information and examples for use.'
+        message: 'Please provide  usage information and examples for use.'
       },
       {
         type: "list",
@@ -145,7 +145,15 @@ const promptUser = () => {
             console.log('Please enter your e-mail address!');
             return false;
           }
+        },
+        validate: answer =>{
+          const pass = answer.match(/\S+@\S+\.\S+/);
+          if (pass) {
+            return true;
+          }
+          return "Please enter a valid email address.";
         }
+        
       },
 
     ])
