@@ -3,7 +3,7 @@
     <img src="https://img.shields.io/github/repo-size/deeparkrish /README-generator" />
     <img src="https://img.shields.io/github/languages/top/deeparkrish /README-generator"  />
     <img src="https://img.shields.io/github/issues/deeparkrish /README-generator" />
-    <img src="https://img.shields.io/github/last-commit/deeparkrish /README-generator" >   
+    <img src="https://img.shields.io/github/last-commit/Deeparkrish /README-generator" >   
   </p>
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
