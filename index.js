@@ -2,7 +2,7 @@
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
-const { resolve } = require("path");
+// const { resolve } = require("path");
 
 const generateReadMe = require("./utils/generateMarkdown")
  const readMeFile ="./dis/README.md";
@@ -89,7 +89,7 @@ const promptUser = () => {
       {
         type: 'confirm',
         name: 'confirmContribute',
-        message: 'Would you  like add contributors to this project?',
+        message: 'Would you  like add contribution guidlelines to this project?',
         default: true
       },
       {
@@ -101,12 +101,12 @@ const promptUser = () => {
             if (projectContribution) {
               return true;
             } else {
-              console.log('Please provide contribution guidelines');
+              console.log('Please provide contributing guidelines');
               return false;
             }
           },
         
-        message: "Please  specify the Contribution guidlines for your project."
+        message: "Please  specify the Contributing guidlines for your project."
     },
     {
         type: "input",
@@ -184,12 +184,12 @@ const writeToFile=(fileName, data) => {
 
 // TODO: Create a function to initialize app
 function init() {
-    promptUser()
+    promptUser() //call the function to receie user responses in commandline 
     .then(answers =>{
-        return generateReadMe(answers);
+        return generateReadMe(answers); // Generate markdown file
     })
-    .then(pageHTMl => {
-        return writeToFile(readMeFile,pageHTMl);
+    .then(pageMD => {
+        return writeToFile(readMeFile,pageMD);   //write onto README.md 
     })
     .catch(err =>{
         console.log (err);

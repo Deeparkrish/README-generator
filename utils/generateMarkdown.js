@@ -1,7 +1,5 @@
 
 var licenseBadgeLink='';
-// TODO: Create a function that returns  a license badge based the license link on which license is passed in
-// If there is no license, return an empty string
 function renderLicenseBadgeandLink(license) {
   switch (license){
     case "Apache" :   licenseBadgeLink ="[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
@@ -55,10 +53,8 @@ function renderLicenseSection(license) {
   if (!license)
   return '';
   else 
-  
   return renderLicenseBadgeandLink(license);
   
-
 }
 
 // TODO: Create a function to generate markdown for README
@@ -98,7 +94,7 @@ function generateMarkdown(data) {
   ${licenseBadgeLink}<br />
   This app is covered under ${data.projectLicense} license.
 
-  ## Contribution
+  ## Contributing
   ${data.projectContribution}
 
   ## Testing 
