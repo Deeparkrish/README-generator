@@ -1,6 +1,8 @@
 
-var licenseBadgeLink='';
+var licenseBadgeLink=''; // A global vairable to store the license Badge link based on user's choice 
+//Create a license badge along with a link  for a license 
 function renderLicenseBadgeandLink(license) {
+  // swtich based on license that was chosen 
   switch (license){
     case "Apache" :   licenseBadgeLink ="[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
                       break;
@@ -47,26 +49,27 @@ function renderLicenseBadgeandLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
+// A function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (!license)
+  if (!license) // Checks if licencse field is null
   return '';
   else 
-  return renderLicenseBadgeandLink(license);
+  return renderLicenseBadgeandLink(license); // call the function that creates the badge  for the license 
   
 }
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  renderLicenseSection(data.projectLicense);
-  
-  return `# ${data.projectTitle}
+  renderLicenseSection(data.projectLicense); //  Validate the license and Create a license badge 
+  if(!data.projectContribution) // Check if user has provided contritbution guidelines 
+  { data.projectContribution ='None'}; // If not then assign conrtibution value to "None"
+  // retruns the markdown file generated 
+  return `# ${data.projectTitle}   
   <p align="left">
-    <img src="https://img.shields.io/github/repo-size/${data.github}/README-generator" />
-    <img src="https://img.shields.io/github/languages/top/${data.github}/README-generator"  />
-    <img src="https://img.shields.io/github/issues/${data.github}/README-generator" />
-    <img src="https://img.shields.io/github/last-commit/${data.github}/README-generator" >   
+    <img src="https://img.shields.io/github/repo-size/${data.github.trim()}/README-generator" />
+    <img src="https://img.shields.io/github/languages/top/${data.github.trim()}/README-generator"  />
+    <img src="https://img.shields.io/github/issues/${data.github.trim()}/README-generator" />
+    <img src="https://img.shields.io/github/last-commit/${data.github.trim()}/README-generator" >   
   </p>
 
   ${licenseBadgeLink}<br />
@@ -79,7 +82,7 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
-  * [Contribution](#contribution)
+  * [Contributing](#contributing)
   * [Testing](#testing)
   * [Questions](#questions)
   
@@ -109,4 +112,4 @@ function generateMarkdown(data) {
 
 }
 
-module.exports = generateMarkdown;
+module.exports = generateMarkdown; // export the generateamrkdown function 
