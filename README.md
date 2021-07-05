@@ -48,6 +48,9 @@ The following are needed to reun this application :
 The application will be invoked by using the following command:
 node index.js
 
+## Mockup 
+![Webpage](https://github.com/Deeparkrish/README-generator/blob/main/screencapture-file-Users-deepakrishnan-Mycode-ChallengeRepo-README-generator-dis-README-md-2021-07-04-23_15_28.png)
+
 ## Generated README 
 https://github.com/Deeparkrish/README-generator/tree/main/dis
 
