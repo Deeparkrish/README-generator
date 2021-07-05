@@ -47,9 +47,14 @@ The following are needed to run this application :
 
 The application will be invoked by using the following command:
 node index.js
+## Project Demo
+# Generating the README file : 
+  ![MyDemo](https://github.com/Deeparkrish/README-generator/blob/main/img/README%20project%20DEMO.gif)
 
+# License Badge:
+  ![MyDemo](https://github.com/Deeparkrish/README-generator/blob/main/img/LicenseandBadge2.gif)
 ## Mockup 
-![Webpage](https://github.com/Deeparkrish/README-generator/blob/main/screencapture-file-Users-deepakrishnan-Mycode-ChallengeRepo-README-generator-dis-README-md-2021-07-04-23_15_28.png)
+![Webpage](https://github.com/Deeparkrish/README-generator/blob/main/img/mockup2.png)
 
 ## Generated README 
 https://github.com/Deeparkrish/README-generator/tree/main/dis
