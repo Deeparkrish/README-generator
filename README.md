@@ -17,7 +17,7 @@ Create a command-line application that dynamically generates a professional READ
     <img src="https://img.shields.io/badge/-json-orange" />
 </p>
 
-## Interface 
+## Detailed Description
 The following steps have been incorporated in this app :
 * A command-line application that accepts user input.
 * The user is prompted to enter the project title
@@ -39,9 +39,9 @@ The following steps have been incorporated in this app :
 * The project license is carefully examined and appropriate Badges  are created.
 * This content is written into a README file in "dis" folder, using the fs.writeFile function. 
 * A high-quality, professional README.md is generated with the title of my project with sections included, is created.
-## Installation 
 
-The following are needed to reun this application :
+## Installation 
+The following are needed to run this application :
 * npm i inquirer - Install a collection of common interactive command line user interfaces.
 * npm install -Install the dependencies in the local node_modules folder.
 
