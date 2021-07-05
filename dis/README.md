@@ -1,4 +1,4 @@
-# rv
+# README-generator   
   <p align="left">
     <img src="https://img.shields.io/github/repo-size/deeparkrish/README-generator" />
     <img src="https://img.shields.io/github/languages/top/deeparkrish/README-generator"  />
@@ -6,10 +6,10 @@
     <img src="https://img.shields.io/github/last-commit/deeparkrish/README-generator" >   
   </p>
 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br />
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
 
   ## Description
-  vdv
+   A command line application that dynamically generates a professional README file from a user's input.
 
   ## Table of Contents 
   * [Description](#description)
@@ -22,23 +22,23 @@
   
   
   ##  Installation
-  dvsv
+  Install node.js and npm -i inquirer 
 
   ##  Usage
-  dsv
+    Answer to the prompts to generate a READMe.md file 
 
   ## License 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br />
-  This app is covered under Apache license.
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
+  This app is covered under MIT license.
 
   ## Contributing
-  None
+  Please fork from the repo abd check our code of conduct before contributing.
 
   ## Testing 
-  vdrv
+  Try entering an email address with the @ symbol 
 
   ## Questions 
   Git hub link: [deeparkrish](https://github.com/deeparkrish) <br/>
-  Email :1@2.com
+  Email :deepa@deepa.com
 
   Created with ❤️ by [Deepa Krishnan](https://github.com/DeeparKrish/README-generator)
