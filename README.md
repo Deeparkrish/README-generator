@@ -1,4 +1,6 @@
 ##  README-Generator 
+# Objective
+
 Create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
   
 <p align="left">
@@ -17,7 +19,20 @@ Create a command-line application that dynamically generates a professional READ
     <img src="https://img.shields.io/badge/-json-orange" />
 </p>
 
-## Detailed Description
+## Table of Contents 
+   
+  * [Objective](#objective)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Implementation](#implementation)
+  * [ProjectDemo](#projectdemo)
+  * [Mockup](#mockup)
+  * [License](#license)
+  * [Repository](#repository)
+  * [Generated-README](#generated-readme)
+  * [Contribution](#contribution)
+
+## Description
 The following steps have been incorporated in this app :
 * A command-line application that accepts user input.
 * The user is prompted to enter the project title
@@ -44,22 +59,22 @@ The following steps have been incorporated in this app :
 The following are needed to run this application :
 * npm i inquirer - Install a collection of common interactive command line user interfaces.
 * npm install -Install the dependencies in the local node_modules folder.
+* The application will be invoked by using the following command:
+  node index.js
 
-The application will be invoked by using the following command:
-node index.js
-## Project Demo
-# Generating the README file : 
+## ProjectDemo
+## Generating the README file: 
   ![MyDemo](https://github.com/Deeparkrish/README-generator/blob/main/img/README%20project%20DEMO.gif)
 
-# License Badge:
+## License/Badge demo:
   ![MyDemo](https://github.com/Deeparkrish/README-generator/blob/main/img/LicenseandBadge2.gif)
 ## Mockup 
 ![Webpage](https://github.com/Deeparkrish/README-generator/blob/main/img/mockup2.png)
 
-## Generated README 
+## Generated-README 
 https://github.com/Deeparkrish/README-generator/tree/main/dis
 
-## Project Repository
+## Repository
 https://deeparkrish.github.io/README-generator/
 
 
