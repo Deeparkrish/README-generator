@@ -27,7 +27,6 @@ Create a command-line application that dynamically generates a professional READ
   * [Implementation](#implementation)
   * [ProjectDemo](#projectdemo)
   * [Mockup](#mockup)
-  * [License](#license)
   * [Repository](#repository)
   * [Generated-README](#generated-readme)
   * [Contribution](#contribution)
@@ -63,10 +62,10 @@ The following are needed to run this application :
   node index.js
 
 ## ProjectDemo
-## Generating the README file: 
+  ##  1.Generating the README file: 
   ![MyDemo](https://github.com/Deeparkrish/README-generator/blob/main/img/README%20project%20DEMO.gif)
 
-## License/Badge demo:
+  ##  2. License/Badge demo:
   ![MyDemo](https://github.com/Deeparkrish/README-generator/blob/main/img/LicenseandBadge2.gif)
 ## Mockup 
 ![Webpage](https://github.com/Deeparkrish/README-generator/blob/main/img/mockup2.png)
